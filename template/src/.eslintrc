@@ -1,0 +1,57 @@
+{
+  "extends": ["react-app", "react-app/jest"],
+  "rules": {
+    "quotes": ["error", "single"],
+    "max-len": ["error", { "code": 120, "tabWidth": 2 }],
+    "no-console": "error",
+    "no-template-curly-in-string": "error",
+    "accessor-pairs": "error",
+    "curly": "error",
+    "eqeqeq": ["error", "always"],
+    "no-alert": "error",
+    "no-useless-concat": "error",
+    "no-useless-return": "error",
+    "radix": "error",
+    "strict": ["error", "global"],
+    "no-shadow": ["error", { "hoist": "all" }],
+    "no-use-before-define": ["error", { "functions": false }],
+    "camelcase": "error",
+    "object-curly-spacing": [
+      "error",
+      "always",
+      {
+        "objectsInObjects": true
+      }
+    ],
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "functions": "always-multiline"
+      }
+    ],
+    "eol-last": "error",
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "lines-between-class-members": ["error", "always"],
+    "no-multiple-empty-lines": "error",
+    "no-nested-ternary": "error",
+    "no-trailing-spaces": "error",
+    "no-unneeded-ternary": "error",
+    "semi": "error",
+    "semi-style": "error",
+    "arrow-body-style": ["error", "as-needed"],
+    "arrow-parens": "error",
+    "no-var": "error",
+    "prefer-arrow-callback": "error",
+    "prefer-const": "error",
+    "prefer-template": "error",
+    "no-undef": "off"
+  }
+}

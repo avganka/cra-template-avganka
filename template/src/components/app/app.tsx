@@ -1,12 +1,11 @@
-import './App.css';
+import styles from './app.module.scss';
 
-function App(): JSX.Element {
+const App = () => {
   return (
-    <div>
+    <div className={styles.app}>
       Avganka awesome Template
     </div>
   );
 }
-
 
 export default App;
